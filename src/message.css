@@ -1,0 +1,35 @@
+.Message__box {
+  /* border: 1px solid #EBEBEB; */
+
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: center;
+}
+.left__box {
+  width: 30%;
+  border: 1px solid #ebebeb;
+  overflow-y: scroll;
+  height: 600px;
+}
+.left__box h5 {
+  padding: 50px;
+  border-bottom: 1px solid #ebebeb;
+}
+.top1:hover {
+  background-color: #ebebeb;
+}
+.Input__message input {
+  border-radius: 15px;
+  height: 30px;
+  width: 100%;
+  margin-top: 200px;
+  border: 2px solid #c7c6c6;
+}
+.Input__message input:focus-visible {
+  outline: none;
+}
+.right__box {
+  height: 600px;
+  overflow-y: scroll;
+}

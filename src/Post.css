@@ -1,0 +1,42 @@
+.postss {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+  object-fit: contain;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: -303px;
+}
+@media (max-width: 800px) {
+  .postss {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+.post h6 {
+  padding: 20px;
+}
+.post__ic {
+  padding: 20px;
+}
+.post__ic .ic {
+  margin-left: 5px;
+  font-size: 20px;
+}
+.post__ic .ico__heart {
+  color: red;
+}
+.post__header {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.post__header h5 {
+  margin: 10px 10px;
+}
